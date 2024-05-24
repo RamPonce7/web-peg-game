@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web-peg-game:
+    container_name: web-peg-game
+    image: web-peg-game
+    ports:
+      - 3031:3031
+    restart: always
